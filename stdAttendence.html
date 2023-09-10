@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+.dropdown select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  outline: none;
+}
+
+.dropdown select:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown select:focus {
+  border-color: #007bff;
+}
+.claas-details{
+    background-color: white;
+    padding: 30px;
+    padding-right: 60px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px #0e3d14(0, 0, 0, 0.1);
+    width: 500px;
+    height: 795px;
+    position: relative;
+    top: 10px;
+    left: 250px;
+  }
+
+  .add-details{
+
+   width: 150px;
+   /* margin-left: 400px; */
+   margin-top: 10px;
+   
+
+
+  }
+
+  #studentName{
+    width: 270px;
+  }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>SMIT Attendence Application</h1>
+    
+        <div class="signup-navbar">
+          <h1>Student attendence Form</h1>
+      
+          </div>
+
+          <div class="claas-details">
+
+            <div class="input-group">
+                <label for="studentName">Student Name</label>
+                <input type="text" id="studentName" placeholder="Enter the student name">
+              </div>
+              <br>
+
+              <div class="dropdown">
+                  <div class="input-group">
+                <label for="email">Class timings:</label>
+                <select>
+                  <option value="option1">Select timings</option>
+                  <option value="option1">9:00 am to 1:00 pm</option>
+                  <option value="option2">2:00 pm to 4:00 pm</option>
+                  <option value="option3">6:00 pm to 10:00 pm</option>
+                </select>
+              </div>
+              </div>
+              <br>
+
+              <div class="dropdown">
+                <div class="input-group">
+              <label for="email">Schedule of classs:</label>
+              <select>
+                <option value="option1">Select class of days </option>
+                <option value="option2">Saturday</option>
+                <option value="option2">Sunday</option>
+                <option value="option3">Monday to wednesday</option>
+              </select>
+            </div>
+            </div>
+            <br>
+
+            <div class="dropdown">
+                <div class="input-group">
+              <label for="email">Teacher's name:</label>
+              <select>
+                <option value="option1">Select Teacher Name</option>
+                <option value="option2">Maan Hina</option>
+                <option value="option2">Maan Iqra</option>
+                <option value="option3">Sir Ghous</option>
+              </select>
+            </div>
+            </div>
+            <br>
+
+            <div class="dropdown">
+                <div class="input-group">
+              <label for="email">Section name:</label>
+              <select>
+                <option value="option1">Select section</option>
+                <option value="option2">Boys</option>
+                <option value="option3">Girls</option>
+              </select>
+            </div>
+            </div>
+            <br>
+
+            <div class="dropdown">
+                <div class="input-group">
+              <label for="email">Course name:</label>
+              <select>
+                <option value="option1">Select course name</option>
+                <option value="option2">Web and App</option>
+                <option value="option3">Flutter</option>
+                <option value="option4">Artificial Intelligence</option>
+                <option value="option5">Machine Learning</option>
+              </select>
+            </div>
+            </div>
+            <br>
+
+            <div class="dropdown">
+                <div class="input-group">
+              <label for="email">Batch number:</label>
+              <select>
+                <option value="option1">Select batch </option>
+                <option value="option2">01</option>
+                <option value="option3">02</option>
+                <option value="option3">03</option>
+              </select>
+            </div>
+            </div>
+
+
+            <div class="dropdown">
+                <div class="input-group">
+              <label for="email">Attendence of student:</label>
+              <select>
+                <option value="option1">Mark student attendence</option>
+                <option value="option2">Present</option>
+                <option value="option3">Absent</option>
+                <option value="option4">Leave</option>
+              </select>
+            </div>
+            </div>
+
+            <button class="add-details" id="login-button">Mark Attendence</button>
+
+           
+              
+
+          </div>
+    <script type="module" src="config.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
